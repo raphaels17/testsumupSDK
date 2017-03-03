@@ -18,7 +18,9 @@
 		9A6AB9061E6908900078DE99 /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB9011E6908900078DE99 /* YTLibResources.bundle */; };
 		9A6AB9071E6908900078DE99 /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB9021E6908900078DE99 /* SMPSharedResources.bundle */; };
 		9A6AB9081E6908900078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB9041E6908900078DE99 /* SumupSDK.framework */; };
-		9A6AB9121E690AAA0078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB9111E690AAA0078DE99 /* SumupSDK.framework */; };
+		9A6AB9181E690B290078DE99 /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB9151E690B290078DE99 /* SMPSharedResources.bundle */; };
+		9A6AB9191E690B290078DE99 /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB9161E690B290078DE99 /* YTLibResources.bundle */; };
+		9A6AB91A1E690B290078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB9171E690B290078DE99 /* SumupSDK.framework */; };
 		9AE46AC11E68F1A300024156 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE46AC01E68F0F800024156 /* ThreeRingControl.framework */; };
 		9AE46AC21E68F1A300024156 /* ThreeRingControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE46AC01E68F0F800024156 /* ThreeRingControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -93,7 +95,9 @@
 		9A6AB9011E6908900078DE99 /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
 		9A6AB9021E6908900078DE99 /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
 		9A6AB9041E6908900078DE99 /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
-		9A6AB9111E690AAA0078DE99 /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SumupSDK.framework; path = "../../sumup-ios-sdk-master 2/SumupSDK.embeddedframework/SumupSDK.framework"; sourceTree = "<group>"; };
+		9A6AB9151E690B290078DE99 /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
+		9A6AB9161E690B290078DE99 /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
+		9A6AB9171E690B290078DE99 /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
 		9AE46ABB1E68F0F800024156 /* ThreeRingControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThreeRingControl.xcodeproj; path = ../../Desktop/ThreeRingControl/ThreeRingControl.xcodeproj; sourceTree = "<group>"; };
 		DC9610EC18996388009D8EBC /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +109,7 @@
 			files = (
 				9A6AB9081E6908900078DE99 /* SumupSDK.framework in Frameworks */,
 				9AE46AC11E68F1A300024156 /* ThreeRingControl.framework in Frameworks */,
-				9A6AB9121E690AAA0078DE99 /* SumupSDK.framework in Frameworks */,
+				9A6AB91A1E690B290078DE99 /* SumupSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +165,8 @@
 		4C8F76591C681D8F000A64EB /* Phonercise */ = {
 			isa = PBXGroup;
 			children = (
+				9A6AB9131E690B290078DE99 /* SumupSDK.embeddedframework */,
 				4C8F765A1C681D8F000A64EB /* AppDelegate.swift */,
-				9A6AB9111E690AAA0078DE99 /* SumupSDK.framework */,
 				1AFC80521C68343C00BD26FA /* ActionViewController.swift */,
 				4C8F765E1C681D8F000A64EB /* Main.storyboard */,
 				1AFC80671C6834A100BD26FA /* Three Ring View */,
@@ -207,6 +211,24 @@
 			);
 			name = SumupSDK.embeddedframework;
 			path = "../sumup-ios-sdk-master 2/SumupSDK.embeddedframework";
+			sourceTree = "<group>";
+		};
+		9A6AB9131E690B290078DE99 /* SumupSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AB9141E690B290078DE99 /* Resources */,
+				9A6AB9171E690B290078DE99 /* SumupSDK.framework */,
+			);
+			path = SumupSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		9A6AB9141E690B290078DE99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AB9151E690B290078DE99 /* SMPSharedResources.bundle */,
+				9A6AB9161E690B290078DE99 /* YTLibResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		9AE46ABC1E68F0F800024156 /* Products */ = {
@@ -338,9 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6AB9061E6908900078DE99 /* YTLibResources.bundle in Resources */,
+				9A6AB9181E690B290078DE99 /* SMPSharedResources.bundle in Resources */,
 				9A6AB9071E6908900078DE99 /* SMPSharedResources.bundle in Resources */,
 				4C8F76651C681D8F000A64EB /* LaunchScreen.storyboard in Resources */,
 				4C8F76621C681D8F000A64EB /* Assets.xcassets in Resources */,
+				9A6AB9191E690B290078DE99 /* YTLibResources.bundle in Resources */,
 				4C8F76601C681D8F000A64EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +526,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3DJ847N7W6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Phonercise/SumupSDK.embeddedframework",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Phonercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -519,6 +547,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3DJ847N7W6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Phonercise/SumupSDK.embeddedframework",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Phonercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
