@@ -14,7 +14,6 @@
 		4C8F76621C681D8F000A64EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F76611C681D8F000A64EB /* Assets.xcassets */; };
 		4C8F76651C681D8F000A64EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F76631C681D8F000A64EB /* LaunchScreen.storyboard */; };
 		4C8F76701C681D8F000A64EB /* PhonerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F766F1C681D8F000A64EB /* PhonerciseTests.swift */; };
-		9A6AB8DF1E68FA840078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9610EC18996388009D8EBC /* SumupSDK.framework */; };
 		9A6AB8E01E68FA840078DE99 /* SumupSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC9610EC18996388009D8EBC /* SumupSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A6AB8FB1E6905D00078DE99 /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB8F21E6905D00078DE99 /* YTLibResources.bundle */; };
 		9A6AB8FC1E6905D00078DE99 /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB8F31E6905D00078DE99 /* SMPSharedResources.bundle */; };
@@ -108,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6AB8DF1E68FA840078DE99 /* SumupSDK.framework in Frameworks */,
 				9A6AB8FE1E6905D00078DE99 /* Accelerate.framework in Frameworks */,
 				9A6AB8FF1E6905D00078DE99 /* AVFoundation.framework in Frameworks */,
 				9AE46AC11E68F1A300024156 /* ThreeRingControl.framework in Frameworks */,
@@ -152,7 +150,6 @@
 				4C8F76591C681D8F000A64EB /* Phonercise */,
 				4C8F766E1C681D8F000A64EB /* PhonerciseTests */,
 				4C8F76581C681D8F000A64EB /* Products */,
-				9A6AB8FA1E6905D00078DE99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +165,7 @@
 		4C8F76591C681D8F000A64EB /* Phonercise */ = {
 			isa = PBXGroup;
 			children = (
+				9A6AB8FA1E6905D00078DE99 /* Frameworks */,
 				9A6AB8E21E68FEBD0078DE99 /* Phonercise-Bridging-Header.h */,
 				4C8F765A1C681D8F000A64EB /* AppDelegate.swift */,
 				1AFC80521C68343C00BD26FA /* ActionViewController.swift */,
@@ -224,7 +222,7 @@
 				9A6AB8F91E6905D00078DE99 /* MapKit.framework */,
 			);
 			name = Frameworks;
-			path = "../sumup-ios-sdk-master 2";
+			path = "../../sumup-ios-sdk-master 2";
 			sourceTree = "<group>";
 		};
 		9AE46ABC1E68F0F800024156 /* Products */ = {
