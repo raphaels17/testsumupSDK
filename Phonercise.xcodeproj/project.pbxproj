@@ -16,6 +16,12 @@
 		4C8F76701C681D8F000A64EB /* PhonerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F766F1C681D8F000A64EB /* PhonerciseTests.swift */; };
 		9A6AB8DF1E68FA840078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9610EC18996388009D8EBC /* SumupSDK.framework */; };
 		9A6AB8E01E68FA840078DE99 /* SumupSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC9610EC18996388009D8EBC /* SumupSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A6AB8FB1E6905D00078DE99 /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB8F21E6905D00078DE99 /* YTLibResources.bundle */; };
+		9A6AB8FC1E6905D00078DE99 /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6AB8F31E6905D00078DE99 /* SMPSharedResources.bundle */; };
+		9A6AB8FD1E6905D00078DE99 /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB8F51E6905D00078DE99 /* SumupSDK.framework */; };
+		9A6AB8FE1E6905D00078DE99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB8F71E6905D00078DE99 /* Accelerate.framework */; };
+		9A6AB8FF1E6905D00078DE99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB8F81E6905D00078DE99 /* AVFoundation.framework */; };
+		9A6AB9001E6905D00078DE99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6AB8F91E6905D00078DE99 /* MapKit.framework */; };
 		9AE46AC11E68F1A300024156 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE46AC01E68F0F800024156 /* ThreeRingControl.framework */; };
 		9AE46AC21E68F1A300024156 /* ThreeRingControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE46AC01E68F0F800024156 /* ThreeRingControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -87,6 +93,12 @@
 		4C8F76711C681D8F000A64EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A6AB8D41E68F7160078DE99 /* SumupSDKSampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SumupSDKSampleApp.xcodeproj; path = "../sumup-ios-sdk-master 2/SumupSDKSampleApp.xcodeproj"; sourceTree = "<group>"; };
 		9A6AB8E21E68FEBD0078DE99 /* Phonercise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phonercise-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9A6AB8F21E6905D00078DE99 /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
+		9A6AB8F31E6905D00078DE99 /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
+		9A6AB8F51E6905D00078DE99 /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
+		9A6AB8F71E6905D00078DE99 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9A6AB8F81E6905D00078DE99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A6AB8F91E6905D00078DE99 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9AE46ABB1E68F0F800024156 /* ThreeRingControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThreeRingControl.xcodeproj; path = ../../Desktop/ThreeRingControl/ThreeRingControl.xcodeproj; sourceTree = "<group>"; };
 		DC9610EC18996388009D8EBC /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +109,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6AB8DF1E68FA840078DE99 /* SumupSDK.framework in Frameworks */,
+				9A6AB8FE1E6905D00078DE99 /* Accelerate.framework in Frameworks */,
+				9A6AB8FF1E6905D00078DE99 /* AVFoundation.framework in Frameworks */,
 				9AE46AC11E68F1A300024156 /* ThreeRingControl.framework in Frameworks */,
+				9A6AB9001E6905D00078DE99 /* MapKit.framework in Frameworks */,
+				9A6AB8FD1E6905D00078DE99 /* SumupSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +152,7 @@
 				4C8F76591C681D8F000A64EB /* Phonercise */,
 				4C8F766E1C681D8F000A64EB /* PhonerciseTests */,
 				4C8F76581C681D8F000A64EB /* Products */,
+				9A6AB8FA1E6905D00078DE99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +195,36 @@
 				9A6AB8DC1E68F7160078DE99 /* SumUpSDKSampleAppSwift.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9A6AB8F41E6905D00078DE99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AB8F21E6905D00078DE99 /* YTLibResources.bundle */,
+				9A6AB8F31E6905D00078DE99 /* SMPSharedResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A6AB8F61E6905D00078DE99 /* SumupSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AB8F41E6905D00078DE99 /* Resources */,
+				9A6AB8F51E6905D00078DE99 /* SumupSDK.framework */,
+			);
+			path = SumupSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		9A6AB8FA1E6905D00078DE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AB8F61E6905D00078DE99 /* SumupSDK.embeddedframework */,
+				9A6AB8F71E6905D00078DE99 /* Accelerate.framework */,
+				9A6AB8F81E6905D00078DE99 /* AVFoundation.framework */,
+				9A6AB8F91E6905D00078DE99 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = "../sumup-ios-sdk-master 2";
 			sourceTree = "<group>";
 		};
 		9AE46ABC1E68F0F800024156 /* Products */ = {
@@ -308,6 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6AB8FC1E6905D00078DE99 /* SMPSharedResources.bundle in Resources */,
+				9A6AB8FB1E6905D00078DE99 /* YTLibResources.bundle in Resources */,
 				4C8F76651C681D8F000A64EB /* LaunchScreen.storyboard in Resources */,
 				4C8F76621C681D8F000A64EB /* Assets.xcassets in Resources */,
 				4C8F76601C681D8F000A64EB /* Main.storyboard in Resources */,
